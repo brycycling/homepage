@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bryan Chow</title>
+<meta name="description" content="Bryan Chow, MD, FRCPC">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #fdfcf9;
+    --ink: #1C1B19;
+    --text: #2A2825;
+    --muted: #4A4640;
+    --hover: #8A5A3B;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--paper); }
+  body {
+    color: var(--text);
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 19px;
+    line-height: 1.55;
+    padding: 200px 24px 96px 100px;
+  }
+  main {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+  }
+  header, section { display: flex; flex-direction: column; gap: 14px; }
+  header { gap: 2px; }
+  h1, h2 {
+    margin: 0;
+    font-family: Inter, system-ui, sans-serif;
+    font-weight: 700;
+    color: var(--ink);
+  }
+  h1 { font-size: 19px; letter-spacing: -0.01em; }
+  h2 { font-size: 18px; }
+  p { margin: 0; }
+  header p { color: var(--muted); }
+  ul {
+    margin: 0;
+    padding-left: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+  a:hover { color: var(--hover); }
+  @media (max-width: 640px) {
+    body { padding: 64px 24px 96px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Bryan Chow</h1>
+    <p>MD, FRCPC</p>
+  </header>
+
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li><a href="https://mocapnav.bryanmd.ca/">mocapnav</a></li>
+      <li><a href="https://mha.bryanmd.ca/">mhacalc</a></li>
+      <li><a href="https://www.aualtc.ca/">aualtc</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p><a href="https://www.linkedin.com/in/bryan-chow-md/">LinkedIn</a></p>
+  </section>
+</main>
+</body>
+</html>
